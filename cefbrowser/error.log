@@ -1,0 +1,20 @@
+
+[2019-05-19 14:16:32] Traceback (most recent call last):
+  File "webviewtest.py", line 36, in <module>
+    main()
+  File "webviewtest.py", line 12, in main
+    conf = ConfigParser.SafeConfigParser()
+AttributeError: type object 'ConfigParser' has no attribute 'SafeConfigParser'
+
+
+[2019-05-19 14:17:27] Traceback (most recent call last):
+  File "webviewtest.py", line 36, in <module>
+    main()
+  File "webviewtest.py", line 13, in main
+    conf.read("config.ini")
+  File "D:\Program Files\Python\Python35\lib\configparser.py", line 696, in read
+    self._read(fp, filename)
+  File "D:\Program Files\Python\Python35\lib\configparser.py", line 1012, in _read
+    for lineno, line in enumerate(fp, start=1):
+UnicodeDecodeError: 'gbk' codec can't decode byte 0xad in position 82: illegal multibyte sequence
+
