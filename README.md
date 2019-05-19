@@ -5,7 +5,9 @@
 
 #### 软件架构
  PyInstaller: 3.4
+
  Python: 3.5.4
+
  Platform: Windows-10-10.0.17763-SP0
 
 
@@ -19,6 +21,7 @@
 解决办法：解压目录下的Microsoft Visual C++ 14.0.rar，并安装（csdn花积分下载的，请叫我雷锋）
 
 ### 配置自己的窗口标题和默认打开页面
+
  **这里注意打包完成后，把目录中的config.ini复制到build中，否则启动报错** 
 
 config.ini里面就是自定义口标题和默认打开页面的url
