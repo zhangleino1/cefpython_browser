@@ -1,39 +1,38 @@
 # cefpython浏览器
 
 #### 介绍
-在
-https://github.com/cztomczak/cefpython/blob/master/examples/pyinstaller/README-pyinstaller.md的指导下，打包自己的python webkit浏览器
-
+用pythoninstall cefpython打包exe，制作自己的浏览器，
 
 #### 软件架构
-软件架构说明
+ PyInstaller: 3.4
+ Python: 3.5.4
+ Platform: Windows-10-10.0.17763-SP0
 
 
-#### 安装教程
+#### 打包操作
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 运行pythoninstaller.py
 
-#### 使用说明
+#### 可能会报错的地方
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. Microsoft visual c++ 14.0 is required问题
+解决办法：解压目录下的Microsoft Visual C++ 14.0.rar，并安装（csdn花积分下载的，请叫我雷锋）
+
+### 配置自己的窗口标题和默认打开页面
+ **这里注意打包完成后，把目录中的config.ini复制到build中，否则启动报错** 
+
+config.ini里面就是自定义口标题和默认打开页面的url
+
+## 截图
+![输入图片说明](https://images.gitee.com/uploads/images/2019/0519/150218_c1c02506_24891.png "微信截图_20190519150151.png")
 
 #### 参与贡献
 
-1. Fork 本仓库
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+1. https://github.com/cztomczak/cefpython/blob/master/examples/pyinstaller/README-pyinstaller.md
 
 
-#### 码云特技
 
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 青苗科技
+
+1. 更多资料请访问www.qingmiaokeji.cn
+2. 有问题请加微信qingmiaogu
