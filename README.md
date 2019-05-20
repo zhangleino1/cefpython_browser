@@ -38,6 +38,6 @@ config.ini里面就是自定义口标题和默认打开页面的url
 
 #### 青苗科技
 
-1. 更多资料请访问www.qingmiaokeji.cn
+1. 更多资料请访问http://www.qingmiaokeji.cn
 
 2. 有问题请加微信qingmiaogu
